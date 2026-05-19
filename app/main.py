@@ -7,7 +7,6 @@ def move_file(command: str) -> None:
     if len(parts) != 3 or parts[0] != "mv":
         return
 
-    command_name = parts[0]
     source_file = parts[1]
     target = parts[2]
 
